@@ -4,7 +4,7 @@ patetas.forEach(pateta => {
     pateta.addEventListener('mouseenter', () => {
 
         if(window.innerWidth < 450){
-            window.scrollTo({top: 0, bahavior: 'smooth'});
+            window.scrollTo({top: 0, behavior: 'smooth'});
         }
         removerSelecaoDoPateta();
         pateta.classList.add('selecionado');

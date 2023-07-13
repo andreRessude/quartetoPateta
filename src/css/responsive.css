@@ -7,6 +7,7 @@
         flex-direction: column-reverse;
         max-width: 430px;
         margin: 0 auto;
+        gap: 0px;
     }
 
     .selecao-de-patetas .patetas{
@@ -38,6 +39,6 @@
     .pateta-selecionado .descricao-pateta{
         width: 80%;
         font-size: 16px;
-        margin: 20px auto;
+        margin: 10px auto;
     }
 }

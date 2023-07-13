@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+
+    <title>Quarteto Pateta(com o simbolo do xmen msm)</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg" alt="Logo">
+        <p>com o símbolo do xmen memo</p>
+    </header>
+
+    <main class="selecao-de-patetas">
+        <section class="patetas">
+            <h2 class="titulo">Selecione seu Pateta</h2>
+
+            <ul class="lista-de-patetas">
+                <li class="pateta selecionado" id="andre" data-name="André" data-description="Come pra caramba, tem uns parafuso a menos e sabe tocar violão. Habilidade especial: faz programa.">
+                    <img 
+                        src="./src/imagens/card-andre.jpg" 
+                        alt="André"
+                    />
+                </li>
+
+                <li class="pateta" id="gabriel" data-name="Gabriel" data-description="Fitness, Super Bombado e gosta de matemática(louco). Habilidade especial: 'Olha minha dorsal'.">
+                    <img 
+                        src="./src/imagens/card-gabriel.jpg" 
+                        alt="Gabriel"
+                    />
+                </li>
+                
+                <li class="pateta" id="jota" data-name="Jota" data-description="Um GRANDE homem, super inteligente, ama jogar mine comendo um miojão assistindo vinicius13 e tem um camping(burguês safado). Habilidade especial: pizzaiollo.">
+                    <img 
+                        src="./src/imagens/card-jota.jpg" 
+                        alt="Jota"
+                    />
+                </li>
+
+                <li class="pateta" id="yuji" data-name="Yuji" data-description="Faz taikô, joga beisibol, assiste animes e sabe japonês o que o torna o puro esteriótipo de um japonês. Habilidade especial: tomar cocafé.">
+                    <img 
+                        src="./src/imagens/card-yuji.jpg" 
+                        alt="Yuji"
+                    />
+                </li>
+            </ul>
+        </section>
+
+        <section class="pateta-selecionado">
+            <img class="pateta-grande" src="./src/imagens/card-andre.png" alt="Pateta Selecionado">
+            <div class="informacoes-pateta">
+                <h3 class="nome-pateta" id="nome-pateta">André</h3>
+                <p class="descricao-pateta" id="descricao-pateta"></p>
+            </div>
+        </section>
+        <script src="./src/js/index.js"></script>
+    </main>
+</body>
+</html>

@@ -1,0 +1,43 @@
+@media(max-width: 900px){
+    .cabecalho .logo{
+        max-width: 190px;
+    }
+
+    .selecao-de-patetas{
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+
+    .selecao-de-patetas .patetas{
+        margin-top: 37px;
+        padding: 10px;
+    }
+
+    .selecao-de-patetas .patetas .titulo{
+        font-size: 15px;
+    }
+
+    .selecao-de-patetas .patetas .lista-de-patetas{
+        gap: 9px;
+    }
+
+    .selecao-de-patetas .patetas .lista-de-patetas .pateta img{
+        width: 80px;
+    }
+
+    .pateta-selecionado{
+        padding: 10px;
+    }
+
+    .pateta-selecionado .pateta-grande{
+        width: 350px;
+        height: 350px;
+    }
+
+    .pateta-selecionado .descricao-pateta{
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+}

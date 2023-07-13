@@ -1,0 +1,94 @@
+body{
+    font-family: "Oxanium", cursive;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.cabecalho{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body::before {
+    content: "";
+    background-image: url(../imagens/bg-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.selecao-de-patetas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    min-height: calc(100vh - 152px);
+}
+
+.selecao-de-patetas .patetas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 585px;
+    gap: 25px;
+}
+
+.selecao-de-patetas .patetas .titulo{
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #47f4ff;
+    width: 100%;
+    text-align: center;
+}
+
+.selecao-de-patetas .patetas .lista-de-patetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.selecao-de-patetas .patetas .lista-de-patetas .pateta img{
+    width: 130px;
+}
+
+.selecao-de-patetas .pateta{
+    transition: transform 0.1s ease-out;
+}
+
+.selecao-de-patetas .pateta.selecionado{
+    box-shadow: 0px 0px 24px 5px #0271f7;
+    transform: scale(1.1);
+}
+
+.pateta-selecionado{
+    text-align: center;
+    max-height: 530px;
+}
+
+.pateta-selecionado .pateta-grande{
+    width: 430px;
+    height: 430px;
+}
+
+.pateta-selecionado .nome-pateta{
+    letter-spacing: 0.3;
+    text-transform: uppercase;
+    border-bottom: 2px solid #47f4ff;
+}
+
+.pateta-selecionado .descricao-pateta{
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 20px;
+    width: 420px;
+}
